@@ -1,4 +1,4 @@
-# Robust Covairance-Learning based Mathcing Pursuit (RCL-MP)
+# Robust Covairance-Learning based Matching Pursuit (RCL-MP)
 
 ## Description
 This MATLAB code simulates activity detection in massive MIMO systems using different algorithms (CWO, CL-OMP, and RCL-MP) under various scenarios. The script performs Monte Carlo simulations to evaluate the performance metrics (PMD and Per) over different numbers of antennas (M) and pilots (L) for varying numbers of active users (K). The results are visualized in plots.
