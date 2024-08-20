@@ -72,7 +72,8 @@ function [Pmd, Per, tme, itercwo] = activityDetectionPE(L, N, K_a, M, P, iter, v
 
         % Algorithm CWOpt
         tStart = tic;
-        [sup1, ~, j1] = CWOpt(A, cov_m, K_a, 1, 15);
+        % [sup1, ~, j1] = CWOpt(A, cov_m, K_a, 1, 15);
+        [sup1, ~, j1] = CWOpt(A, Y, K_a, 1, 15);
         tEnd = toc(tStart);
         timecwo(i) = tEnd;
         itercwo(i) = j1;
